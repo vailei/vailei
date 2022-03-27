@@ -1,0 +1,95 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32, 30, 30);
+    padding: 5px;
+}
+
+header > div {
+    margin: 0 70px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo a {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inputs {
+    display: flex;
+}
+
+.inputs input {
+    font-size: 18px;
+    padding: 8px;
+}
+
+@media (max-width: 600px) {
+    header > div {
+        margin: 0 auto;
+    }
+
+    h4 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    img {
+        width: 180px;
+    }
+
+    p {
+        width: 200px;
+    }
+}
+
+h4 {
+    margin: 5px 70px 0;
+    font-size: 23px;
+}
+
+img {
+    max-width: 215px;
+    display: block;
+}
+
+p {
+    max-width: 215px;
+}
+
+.season {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.season > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.new-eps {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.new-eps > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
